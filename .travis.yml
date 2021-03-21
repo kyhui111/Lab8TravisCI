@@ -34,8 +34,6 @@ android:
       - 'google-gdk-license-.+'
 
 before_install:
-  - yes | sdkmanager "platforms;android-$ANDROID_EMU_API_LEVEL"
-  - yes | sdkmanager "platforms;android_$ANDROID_API_LEVEL"
   - yes | sdkmanager "platforms;android-28"
 
 before_script:
